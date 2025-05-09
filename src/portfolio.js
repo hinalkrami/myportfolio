@@ -20,26 +20,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "hinalkrami",
+  title: "Hi all, I'm Hinal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+"A passionate Web Developer and DevOps enthusiast 🚀 currently in my final year of Msc.IT, with a strong foundation in building web applications using HTML, CSS, JavaScript and actively learning Docker, Kubernetes, and CI/CD tools to pursue a career in DevOps."  ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1MvtDiIknNc6vSACd482xjku3kHlhTg7D/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/hinalkrami",
+  linkedin: "https://www.linkedin.com/in/hinal-rami-790a44271/",
+  gmail: "hinalrami2004@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +43,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "CURIOUS WEB DEVELOPER & DEVOPS ENTHUSIAST EXPLORING MODERN TECH STACKS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("💻 Develop responsive and dynamic web applications using HTML, CSS and JavaScript."),
+    emoji("🔧 Learning and experimenting with DevOps tools like Docker, Kubernetes, and CI/CD pipelines"),
+    emoji("☁️ Exploring cloud platforms and deploying projects on platforms like GitHub Pages."),
+    emoji("📚 Passionate about continuous learning and building real-world projects"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,28 +65,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
@@ -103,10 +75,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -126,23 +94,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Gujarat University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      subHeader: "Master of Science in Information Technology",
+      duration: "July 2021 - May 2026",
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -170,33 +126,34 @@ const techStack = {
 
 // Work experience section
 
-const workExperiences = {
+const AcademicProject = {
+  title: "Projects",
   display: true, //Set it to true to show workExperiences Section
-  experience: [
+  projects: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      type: "E-commers website",
+      name: "GreenHeaven online plant selling system",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "June 2023 ",
+      desc: "The Online Plant Selling System is a web-based platform that allows users to browse, select, and purchase a variety of plants online. It includes admin features to manage inventory, orders, and product listings efficiently.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      type: "AI/ML",
+      name: "Text and caption Generation",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "July 2024 – December 2024",
+      desc: "Text and Caption Generation with Keywords is an AI-based system that generates meaningful text or social media captions from user-provided keywords using NLP and deep learning. It helps automate content creation for posts, blogs, and marketing."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      type: "Soft computing",
+      name: "Medical Diagnosis System Using Fuzzy Logics",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "January 2025 – May 2025",
+      desc: "Medical Diagnosis System using Fuzzy Logic is an intelligent system that evaluates patient symptoms and provides disease predictions by applying fuzzy logic rules. It mimics human reasoning to handle uncertainty and imprecision in medical data for more accurate diagnosis."
     }
   ]
 };
@@ -372,14 +329,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 74340 13655",
+  email_address: "hinalrami2004@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "Hinal Rami", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
@@ -393,7 +350,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  workExperiences,
+  AcademicProject,
   openSource,
   bigProjects,
   achievementSection,
