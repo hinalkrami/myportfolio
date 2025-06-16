@@ -35,8 +35,7 @@ const socialMediaLinks = {
   github: "https://github.com/hinalkrami",
   linkedin: "https://www.linkedin.com/in/hinal-rami-790a44271/",
   gmail: "hinalrami2004@gmail.com",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  leetcode:"https://leetcode.com/u/H-k2004",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -69,10 +68,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -83,7 +78,16 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fa-regular fa-file-code"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fa-regular fa-gem"
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -94,14 +98,13 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Gujarat University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "K. S. School of Business Management & Information Technology ",
+      logo: require("./assets/images/images.png"),
       subHeader: "Master of Science in Information Technology",
       duration: "July 2021 - May 2026",
-      ]
     }
-  ]
-};
+      ]
+    };
 
 // Your top 3 proficient stacks/tech experience
 
@@ -125,33 +128,60 @@ const techStack = {
 };
 
 // Work experience section
-
-const AcademicProject = {
-  title: "Projects",
-  display: true, //Set it to true to show workExperiences Section
-  projects: [
+const workExperiences = {
+  display: false, //Set it to true to show workExperiences Section
+  experience: [
     {
-      type: "E-commers website",
-      name: "GreenHeaven online plant selling system",
+      role: "Software Engineer",
+      company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2023 ",
-      desc: "The Online Plant Selling System is a web-based platform that allows users to browse, select, and purchase a variety of plants online. It includes admin features to manage inventory, orders, and product listings efficiently.",
+      date: "June 2018 – Present",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
+      role: "Front-End Developer",
+      company: "Quora",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "May 2017 – May 2018",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+};
+
+const bigProjects = {
+  title: "Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  display: true, //Set it to true to show workExperiences Section
+  projects: [
+    {
+      type: "E-commers website",
+      name: "GreenHeaven online plant selling system",
+      companylogo: require("./assets/images/logo.png"),
+      date: "June 2023 ",
+      desc: "The Online Plant Selling System is a web-based platform that allows users to browse, select, and purchase a variety of plants online. It includes admin features to manage inventory, orders, and product listings efficiently.",
+    },
+    {
       type: "AI/ML",
       name: "Text and caption Generation",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/Text-and-caption-logo.jpg"),
       date: "July 2024 – December 2024",
       desc: "Text and Caption Generation with Keywords is an AI-based system that generates meaningful text or social media captions from user-provided keywords using NLP and deep learning. It helps automate content creation for posts, blogs, and marketing."
     },
     {
       type: "Soft computing",
       name: "Medical Diagnosis System Using Fuzzy Logics",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/medical-diagnosis-system.png"),
       date: "January 2025 – May 2025",
       desc: "Medical Diagnosis System using Fuzzy Logic is an intelligent system that evaluates patient symptoms and provides disease predictions by applying fuzzy logic rules. It mimics human reasoning to handle uncertainty and imprecision in medical data for more accurate diagnosis."
     }
@@ -168,36 +198,6 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Achievement Section
 // Include certificates, talks etc
@@ -209,53 +209,40 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title: "Linux training",
+      image: require("./assets/images/Linux.png"),
+      imageAlt: "Linux training"
     },
     {
-      title: "Google Assistant Action",
+      title: "Aws training",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      image: require("./assets/images/AWS.png"),
+      imageAlt: "Aws training",
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Docker training",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      image: require("./assets/images/Docker.png"),
+      imageAlt: "Docker trainig",
+    },
+
+    {
+      title: "Kubernetes training",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/Kubernetes.png"),
+      imageAlt: "Kubernetes training",
+    },
+
+    {
+      title: "Git training",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/git.png"),
+      imageAlt: "Git training",
     }
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -281,7 +268,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -300,7 +287,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -313,7 +300,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -350,7 +337,6 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  AcademicProject,
   openSource,
   bigProjects,
   achievementSection,
