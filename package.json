@@ -21,7 +21,6 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "start": "node fetch.js start",
     "build": "node fetch.js build",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
