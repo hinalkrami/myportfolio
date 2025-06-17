@@ -23,8 +23,11 @@
   "scripts": {
     "start": "node fetch.js start",
     "build": "node fetch.js build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+
   },
   "eslintConfig": {
     "extends": "react-app"
