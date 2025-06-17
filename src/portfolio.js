@@ -336,6 +336,7 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  workExperiences,
   techStack,
   openSource,
   bigProjects,
