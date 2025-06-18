@@ -363,7 +363,8 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91 74340 13655",
-  email_address: "hinalrami2004@gmail.com"
+  email_address: "hinalrami2004@gmail.com",
+  display: true 
 };
 
 // Twitter Section
