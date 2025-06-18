@@ -278,7 +278,7 @@ const achievementSection = {
 
     {
       title: "Git training",
-      image: require("./assets/images/git.png"),
+      image: require("./assets/images/Git.png"),
       imageAlt: "Git training",
       footerLink: [
         {
