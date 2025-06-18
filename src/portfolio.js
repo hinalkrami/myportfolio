@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/girl"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "hinalkrami",
+  username: "Hinal Rami",
   title: "Hi all, I'm Hinal",
   subTitle: emoji(
 "A passionate Web Developer and DevOps enthusiast 🚀 currently in my final year of Msc.IT, with a strong foundation in building web applications using HTML, CSS, JavaScript and actively learning Docker, Kubernetes, and CI/CD tools to pursue a career in DevOps."  ),
@@ -81,11 +81,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Kubernetes",
-      fontAwesomeClassname: "fa-regular fa-file-code"
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
       skillName: "jenkins",
-      fontAwesomeClassname: "fa-regular fa-gem"
+      fontAwesomeClassname: "fas fa-user-cog"
     }
 
   ],
@@ -117,7 +117,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -166,24 +166,45 @@ const bigProjects = {
   projects: [
     {
       type: "E-commers website",
-      name: "GreenHeaven online plant selling system",
-      companylogo: require("./assets/images/logo.png"),
+      image: require("./assets/images/plant.png"),
+      projectName: "GreenHeaven online plant selling system",
+      projectDesc: "The Online Plant Selling System is a web-based platform that allows users to browse, select, and purchase a variety of plants online. It includes admin features to manage inventory, orders, and product listings efficiently.",
       date: "June 2023 ",
-      desc: "The Online Plant Selling System is a web-based platform that allows users to browse, select, and purchase a variety of plants online. It includes admin features to manage inventory, orders, and product listings efficiently.",
+      footerLink: [
+        {
+          name: "Visit github page",
+          url: "https://github.com/hinalkrami/Greenheaven"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       type: "AI/ML",
-      name: "Text and caption Generation",
-      companylogo: require("./assets/images/Text-and-caption-logo.jpg"),
+      image: require("./assets/images/ai.png"),
+      projectName: "caption Generation",
+      projectDesc: "Caption Generation with Keywords is an AI-based system that generates meaningful text or social media captions from user-provided keywords using NLP and deep learning. It helps automate content creation for posts, blogs, and marketing.",
       date: "July 2024 – December 2024",
-      desc: "Text and Caption Generation with Keywords is an AI-based system that generates meaningful text or social media captions from user-provided keywords using NLP and deep learning. It helps automate content creation for posts, blogs, and marketing."
+      footerLink: [
+        {
+          name: "Visit page",
+          url: "https://hinalkrami.github.io/Caption-generative-ai.github.io/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       type: "Soft computing",
-      name: "Medical Diagnosis System Using Fuzzy Logics",
-      companylogo: require("./assets/images/medical-diagnosis-system.png"),
+      image: require("./assets/images/drugs.png"),
+      projectName: "Medical Diagnosis System Using Fuzzy Logics",
+      projectDesc: "Medical Diagnosis System using Fuzzy Logic is an intelligent system that evaluates patient symptoms and provides disease predictions by applying fuzzy logic rules. It mimics human reasoning to handle uncertainty and imprecision in medical data for more accurate diagnosis.",
       date: "January 2025 – May 2025",
-      desc: "Medical Diagnosis System using Fuzzy Logic is an intelligent system that evaluates patient symptoms and provides disease predictions by applying fuzzy logic rules. It mimics human reasoning to handle uncertainty and imprecision in medical data for more accurate diagnosis."
+      footerLink: [
+        {
+          name: "Visit github page",
+          url: "https://github.com/hinalkrami/Medical-Diagnosis-System"
+        }
+        //  you can add extra buttons here.
+      ]
     }
   ]
 };
@@ -211,35 +232,60 @@ const achievementSection = {
     {
       title: "Linux training",
       image: require("./assets/images/Linux.png"),
-      imageAlt: "Linux training"
+      imageAlt: "Linux training",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/18_fnYk-4MY4D9Tc56qwB-6LWiTXuZTiI/view?usp=drive_link"
+        },
+      ]
     },
     {
       title: "Aws training",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/AWS.png"),
       imageAlt: "Aws training",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1N2jlXfsEbUBNi8sU_aR9WhCKcoPheaHh/view?usp=drive_link"
+        },
+      ]
     },
 
     {
       title: "Docker training",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/Docker.png"),
       imageAlt: "Docker trainig",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1_pNwYrujAl_awXM4bBiIfDAKUQZ2aBGu/view?usp=drive_link"
+        },
+      ]
     },
 
     {
       title: "Kubernetes training",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/Kubernetes.png"),
       imageAlt: "Kubernetes training",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1YrGh3leeUG0uHKvwgzSlvMI9T4e8iEdk/view?usp=drive_link"
+        },
+      ]
     },
 
     {
       title: "Git training",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/git.png"),
       imageAlt: "Git training",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1hz8g7QK_aIH8xf7p3mc2sYZJpHHqCdmr/view?usp=drive_link"
+        },
+      ]
     }
 
 
@@ -327,7 +373,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -337,6 +383,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
+  workExperiences,
   openSource,
   bigProjects,
   achievementSection,
