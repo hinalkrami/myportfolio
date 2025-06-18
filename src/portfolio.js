@@ -385,7 +385,6 @@ export {
   educationInfo,
   workExperiences,
   techStack,
-  workExperiences,
   openSource,
   bigProjects,
   achievementSection,
