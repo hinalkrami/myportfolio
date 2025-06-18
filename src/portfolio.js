@@ -382,6 +382,7 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  workExperiences,
   techStack,
   workExperiences,
   openSource,
