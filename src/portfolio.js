@@ -286,7 +286,44 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1hz8g7QK_aIH8xf7p3mc2sYZJpHHqCdmr/view?usp=drive_link"
         },
       ]
+    },
+
+    {
+      title: "Jenkins training",
+      image: require("./assets/images/Jenkins.png"),
+      imageAlt: "Jenkins training",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1-AeWxz57U0qxgss9zP3jWRn4-PFwmYoJ/view?usp=drive_link"
+        },
+      ]
+    },
+
+    {
+      title: "Prometheus & Graphana training",
+      image: require("./assets/images/Prometheus-and-grafana.png"),
+      imageAlt: "Prometheus & Graphana training",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1-9r85VQ2HbUuxVf1nrjbtLbhL_sAF4Mh/view?usp=drive_link"
+        },
+      ]
+    },
+
+    {
+      title: "Devops Master",
+      image: require("./assets/images/Devops-master.png"),
+      imageAlt: "Devops Master training",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1-GiLgiHmlWGWua1ICOrcIqkg_NpPiARM/view?usp=drive_link"
+        },
+      ]
     }
+
 
 
   ],
